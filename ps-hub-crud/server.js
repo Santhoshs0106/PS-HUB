@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 // ----------------------------------------------
 let games = [
   { id: 1, name: "God of War Ragnarok", price: 2999, image: "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg" },
-  { id: 2, name: "Spider-Man 2", price: 3499, image: "https://upload.wikimedia.org/wikipedia/en/4/4e/Spider-Man_2_PS5_cover.jpg" },
+  { id: 2, name: "Spider-Man 2", price: 3499, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9vKRS-IZv3ehzqwKwKeqFpOVdvKYCjVLo6EsrqOMq7A&s=10" },
   { id: 3, name: "Horizon Forbidden West", price: 2499, image: "https://upload.wikimedia.org/wikipedia/en/9/91/Horizon_Forbidden_West_cover_art.jpg" },
   { id: 4, name: "Gran Turismo 7", price: 2799, image: "https://upload.wikimedia.org/wikipedia/en/5/54/Gran_Turismo_7.jpg" }
 ];
