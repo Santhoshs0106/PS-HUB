@@ -113,8 +113,12 @@ header img{
 
 /* it sets the image circle */
 .product-card img{
-    max-width: 100%;
-    border-radius: 100px;
+    /*max-width: 100%;
+    border-radius: 100px;*/
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 /* padding gives space inside the header and justify will give a amount of space */
