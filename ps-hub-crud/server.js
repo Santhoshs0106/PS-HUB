@@ -40,7 +40,7 @@ app.use((req, res, next) => {
 // "DATABASE" (in-memory arrays, resets on server restart)
 // ----------------------------------------------
 let games = [
-  { id: 1, name: "God of War Ragnarok", price: 2999, image: "https://placehold.co/150x150" },
+  { id: 1, name: "God of War Ragnarok", price: 2999, image: "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg" },
   { id: 2, name: "Spider-Man 2", price: 3499, image: "https://placehold.co/150x150" },
   { id: 3, name: "Horizon Forbidden West", price: 2499, image: "https://placehold.co/150x150" },
   { id: 4, name: "Gran Turismo 7", price: 2799, image: "https://placehold.co/150x150" }
