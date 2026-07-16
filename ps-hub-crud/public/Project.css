@@ -1,0 +1,233 @@
+/* this will reduce the space between all on the  webpage */
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+
+/* This is for web page full background color */
+body{
+    background-color: white;
+}
+
+/* This is for header section */
+header{
+    background-color: rgb(30, 30, 138);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* This is for the header image the playstation logo */
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* THis is for the text the PS HUB */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* This is for thhe buttons inside the blue frame */
+.header-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+/* This is also for the buttons inside the blue frame */
+.header-btn{
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* This is for the home contact about context */
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+/* This is used for the spacing between the contact about text */
+.navbar li{
+    margin: 0 15px;
+}
+
+/* This is used for the spacing and color of the up text */
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* This is used for the contact about bg color */
+.navbar{
+    background-color: black;
+}
+
+/* This is used to get all the product list and text in center */
+.products-list{
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Used for display it into 4 */
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+/* background of product and border */
+.product-card{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform .5s;
+}
+
+.product-card:hover{
+    /* background-color: aqua; */
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+/* it sets the image circle */
+.product-card img{
+    max-width: 100%;
+    border-radius: 100px;
+}
+
+/* padding gives space inside the header and justify will give a amount of space */
+.about-section{
+    background-color: white;
+    padding: 2rem;
+    text-align: justify;
+}
+
+/* it is going  to set about us in center */
+.about-section h2{
+    text-align: center;
+}
+
+/* it is going do some chanes in about section */
+.about-section p{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.contact-form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button{
+
+    width: 100%;
+    padding: 7px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.contact-section{
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-form button{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.contact-form button:hover{
+    transform: scale(1.05);
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.social-media{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-facebook{
+    background-color: white;
+    padding: 5px;
+    color: blue;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.fa-instagram{
+    padding: 5px;
+    background: linear-gradient(
+    45deg,
+    blue,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+    );
+    color:white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.fa-youtube{
+    background-color: white;
+    padding: 5px;
+    color: red;
+    font-size: 18px;
+    border-radius: 5px; 
+}
+
+.fa-x-twitter{
+    background-color: white;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+}

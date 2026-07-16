@@ -1,0 +1,15 @@
+{
+  "name": "ps-hub-crud",
+  "version": "1.0.0",
+  "description": "PS HUB - Game Library CRUD Application (Node.js + EJS, no JSON file, no JS on frontend)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.19.0"
+  }
+}
