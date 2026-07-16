@@ -40,10 +40,10 @@ app.use((req, res, next) => {
 // "DATABASE" (in-memory arrays, resets on server restart)
 // ----------------------------------------------
 let games = [
-  { id: 1, name: "God of War Ragnarok", price: 2999, image: "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg" },
+  { id: 1, name: "God of War Ragnarok", price: 2999, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiL5-ahNbnP60Nimb2PtuIsxdHeXFq3IhWDSmzGrEtGQ&s=10" },
   { id: 2, name: "Spider-Man 2", price: 3499, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9vKRS-IZv3ehzqwKwKeqFpOVdvKYCjVLo6EsrqOMq7A&s=10" },
-  { id: 3, name: "Horizon Forbidden West", price: 2499, image: "https://upload.wikimedia.org/wikipedia/en/9/91/Horizon_Forbidden_West_cover_art.jpg" },
-  { id: 4, name: "Gran Turismo 7", price: 2799, image: "https://upload.wikimedia.org/wikipedia/en/5/54/Gran_Turismo_7.jpg" }
+  { id: 3, name: "Horizon Forbidden West", price: 2499, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFtLAo5_gCSyt95YKoDkKdvAfBTy3bDtlPGHC0qvQzEw&s=10" },
+  { id: 4, name: "Gran Turismo 7", price: 2799, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNSfZENNnU8Wq0rmM8p5RFqe0YbI6llEFQ-HB_7uiM0g&s=10" }
 ];
 let nextGameId = 5;
 
