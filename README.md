@@ -109,15 +109,15 @@ http://localhost:3000
 
 <img width="100%" src="https://github.com/user-attachments/assets/bef07725-6dd8-4748-8353-9763a1a6983e">
 
-### 🎮 Game Library
+### 🎮 User Login
 
 <img width="100%" src="https://github.com/user-attachments/assets/5bbd6d20-0c97-4d9d-ac24-8cb2ae90f35e">
 
-### 🛒 Order Management
+### 🛒 User Registration
 
 <img width="100%" src="https://github.com/user-attachments/assets/cb0fc173-98af-4ce4-8211-c2fadb1c7e24">
 
-### 👤 User Dashboard
+### 👤 Admin login page (CRUD)
 
 <img width="100%" src="https://github.com/user-attachments/assets/135b1312-e607-4e31-ade9-799c94ff4f7a">
 
