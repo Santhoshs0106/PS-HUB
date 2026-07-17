@@ -53,7 +53,6 @@ PS-HUB
 │
 ├── ps-hub-crud
 │   ├── public
-│   │   └── Project.css
 │   ├── views
 │   ├── server.js
 │   ├── package.json
@@ -98,42 +97,41 @@ http://localhost:3000
 
 ## 🔐 Default Admin Credentials
 
-**Email**
-
-```text
-admin@pshub.com
-```
-
-**Password**
-
-```text
-admin123
-```
+| Email | Password |
+|--------|----------|
+| admin@pshub.com | admin123 |
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
+### 🏠 Home Page
 
-```
-<img width="1918" height="870" alt="Image" src="https://github.com/user-attachments/assets/bef07725-6dd8-4748-8353-9763a1a6983e" />
+<img width="100%" src="https://github.com/user-attachments/assets/bef07725-6dd8-4748-8353-9763a1a6983e">
 
-<img width="1915" height="975" alt="Image" src="https://github.com/user-attachments/assets/5bbd6d20-0c97-4d9d-ac24-8cb2ae90f35e" />
+### 🎮 Game Library
 
-<img width="1915" height="975" alt="Image" src="https://github.com/user-attachments/assets/cb0fc173-98af-4ce4-8211-c2fadb1c7e24" />
+<img width="100%" src="https://github.com/user-attachments/assets/5bbd6d20-0c97-4d9d-ac24-8cb2ae90f35e">
 
-<img width="1915" height="957" alt="Image" src="https://github.com/user-attachments/assets/135b1312-e607-4e31-ade9-799c94ff4f7a" />
+### 🛒 Order Management
+
+<img width="100%" src="https://github.com/user-attachments/assets/cb0fc173-98af-4ce4-8211-c2fadb1c7e24">
+
+### 👤 User Dashboard
+
+<img width="100%" src="https://github.com/user-attachments/assets/135b1312-e607-4e31-ade9-799c94ff4f7a">
+
 ---
 
 ## 🌟 Future Enhancements
 
 - MySQL Database Integration
-- Online Payment Gateway
-- Wishlist
-- Search & Filter
+- Payment Gateway Integration
+- Wishlist Feature
+- Search & Filter Games
 - Game Categories
 - Reviews & Ratings
-- Responsive Mobile Design
+- Mobile Responsive UI
 
 ---
 
@@ -141,11 +139,10 @@ admin123
 
 **Santhosh S**
 
-GitHub:
-https://github.com/Santhoshs0106
+GitHub: https://github.com/Santhoshs0106
 
 ---
 
 ## ⭐ Support
 
-If you like this project, please ⭐ the repository.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
